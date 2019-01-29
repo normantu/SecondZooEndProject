@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+<div class="ariel text-center">
+    <h1>Zoo Front End Project</h1>
+    <h3>By Norman Tu</h3>
+
+</div>
+
+<h5>Create Animal</h5>
+
+<div>
+    <select id="animalSelector">
+        <option value = "0">Name Animal</option>
+        <option value = "1">Bee</option>
+        <option value = "2">Unicorn</option>
+        <option value = "3">Tiger</option>
+        <option value = "4">Giraffe</option>
+        <option value = "5">Bear</option>
+    </select>
+</div>
+
+<div>
+    <input type="text" id="naming" placeholder="Name of Animal"/>
+
+</div>
+
+<button type="button" class="btn btn-warning" id="createAnimal"> Create Animal</button>
+
+<h5>Feed Animal</h5>
+<div>
+    <select id="animalMeals" >
+        <option value="0"> Pollen</option>
+        <option value="1"> Fish</option>
+        <option value="2"> Meat</option>
+        <option value="3"> Leaf</option>
+        <option value="4"> Marshmallows</option>
+
+    </select>
+    <button type="button" class="btn btn-danger" id="food"> Feed the Animal</button>
+
+</div>
+
+<div id="removing">
+    <h5>You can remove the animal by clicking its name.</h5>
+
+</div>
+
+<h4 class="container">Zoo</h4>
+
+<div class="container" id="animalCage"></div>
+
+<h4 id="1">Activity </h4>
+
+<div id="theFeed"></div>
+
+</body>
+</html>
